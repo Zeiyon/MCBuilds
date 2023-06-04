@@ -1,0 +1,108 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #FC8C03;
+    font-size: 20px;
+    padding: 0.1rem;
+}
+
+.container {
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#top-bar .nav-link {
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 0.2rem;
+    margin-left: 1rem;
+    border-bottom: 3px solid transparent;
+    transition: all 0.7s;
+}
+
+#top-bar .nav-link:hover {
+    border-bottom: 3px solid white;
+}
+
+#top-bar {
+    background-color: #FC8C03;
+}
+
+.navbar-brand img{
+    transition: 0.2s;
+}
+
+.navbar-brand:hover img{
+    transform: scale(1.1);
+}
+
+.bottombar {
+    background-color: white;
+    text-align: center;
+}
+
+.bottombar .btn {
+    margin: 0.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 0;
+}
+
+.bottombar .btn:hover {
+    background-color: #FC8C03;
+}
+
+.bottombar .active {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.bottombar .active:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.promotionbar {
+    text-align: center;
+    color: white;
+    transition: 0.75s;
+}
+
+.promotionbar:hover {
+    transform: scale(1.02);
+}
+
+.promotionimg {
+    padding-top: 5rem;
+}
+
+.promotionbar h1{
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 0.1rem;
+    margin: 0;
+    border-bottom: 3px solid white;
+}
+
+.promotionbar p{
+    margin: 0;
+}
+
+.promotionbar hr{
+    color: white;
+    margin: 0;
+    height: 10px;
+    padding: 2px;
+    opacity: 1;
+    width: 50%;
+    translate: 50%;
+}
