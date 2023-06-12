@@ -2,6 +2,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #F3F5F7;
+}
+
 .navbar {
     background-color: #FC8C03;
     font-size: 20px;
@@ -105,4 +109,50 @@
     opacity: 1;
     width: 50%;
     translate: 50%;
+}
+
+.card {
+    margin-top: 2rem;
+    padding: 0;
+    min-width: 300px;
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img{
+    border-radius: 9px;
+}
+
+.card .product-name{
+    padding-bottom: 1.5rem;
+    border-bottom: 3px solid #ECECEC;
+    font-weight: bold;
+}
+
+.card .btn{
+    background-color: #FC8C03;
+    color: white;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+
+.modal .btn-primary{
+    background-color: #FC8C03;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 0.5rem;
+}
+
+.modal .btn-secondary{
+    border-radius: 10px;
+    border: none;
+    margin: 0.5rem;
+}
+
+.modal img{
+    max-width: 45rem;
 }
